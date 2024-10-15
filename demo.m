@@ -23,7 +23,7 @@ Xs = std(Xtrain);
 Xtrain = (Xtrain - Xm) ./ (Xs + eps);
 Xtest  = (Xtest - Xm) ./ (Xs + eps);
 
-% Testing in 10 data splitting.
+% start training
 params = struct("c", 0.25, "gamma", 64, ...
                 "twIter", 100, "eps", eps, "shrink", true, "verbose", true);
 tic;
