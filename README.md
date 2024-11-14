@@ -1,4 +1,6 @@
 # LighTwSVM-paper
+This repo contains the official code of *J. Zhang, Z. Lai, "LighTwSVM: Efficient Linear Nonparallel Classifier for Millions of Data"* (under review).
+
 An efficient implementation of the linear TwSVM.
 
 The requirement is Matlab.
